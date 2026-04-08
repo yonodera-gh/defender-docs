@@ -40,6 +40,11 @@ When Safe Attachments for SharePoint, OneDrive, and Microsoft Teams is enabled a
 
 :::image type="content" source="media/2bba71cc-7ad1-4799-8b9d-d56f923db3a7.png" alt-text="Screenshot of files in OneDrive with one file detected as malicious." lightbox="media/2bba71cc-7ad1-4799-8b9d-d56f923db3a7.png":::
 
+> [!NOTE]
+> When a file shared in Microsoft Teams is identified as malicious, the blocked status is not surfaced directly within the Teams chat "Shared" tab.
+> 
+> Files shared in Teams are stored in either SharePoint or OneDrive, depending on how they were shared. As a result, when Safe Attachments identifies a file as malicious, the threat marker and blocked state are shown in the underlying SharePoint document library or OneDrive location where the file is stored.
+
 Although the blocked file is still listed in the document library and in web, mobile, or desktop applications, people can't open, copy, move, or share the file. But, they can delete the blocked file.
 
 Here's an example of what a blocked file looks like on a mobile device:
